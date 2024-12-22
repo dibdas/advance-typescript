@@ -131,3 +131,8 @@ type Users9={
 }
 // key is the string and the value is Users9 object
 const usersMap1= new Map<string,Users9>()
+
+
+
+type EventType = 'click'|'mouseover'|'scroll'
+type ExcluiseEvent = Exclude<EventType,'scroll'>
