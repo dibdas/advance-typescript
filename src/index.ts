@@ -135,4 +135,11 @@ const usersMap1= new Map<string,Users9>()
 
 
 type EventType = 'click'|'mouseover'|'scroll'
-type ExcluiseEvent = Exclude<EventType,'scroll'>
+type ExcludeEvent = Exclude<EventType,'scroll'>// 'click'|'mouseover'
+ const handleEvent =(event:ExcludeEvent)=>{
+    console.log(`handling event : ${event}`);
+ }
+
+ handleEvent("click");
+ handleEvent("mouseover");
+//  handleEvent("scroll");

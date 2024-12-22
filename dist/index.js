@@ -57,3 +57,15 @@ const users1 = {
     "rs1": { age: 23, name: "raman" },
     "ras2": { age: 76, name: "kirat" }
 };
+const usersMap = new Map();
+usersMap.set('abc123', { id: 'abc123', name: 'John Doe' });
+usersMap.set('xyz789', { id: 'xyz789', name: 'Jane Doe' });
+console.log(usersMap.get('xyz789'));
+// key is the string and the value is Users9 object
+const usersMap1 = new Map();
+const handleEvent = (event) => {
+    console.log(`handling event : ${event}`);
+};
+handleEvent("click");
+handleEvent("mouseover");
+handleEvent("scroll");
