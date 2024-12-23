@@ -68,4 +68,4 @@ const handleEvent = (event) => {
 };
 handleEvent("click");
 handleEvent("mouseover");
-handleEvent("scroll");
+//  handleEvent("scroll");

@@ -59,7 +59,7 @@ function upadteUser23(updateProps:UpdatedPropsPartial){
 }
 const result2 = upadteUser23(
     {
-      name: "kirat",
+      name: "sssskirat",
       age: 20,
     
     },
